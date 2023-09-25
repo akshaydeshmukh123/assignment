@@ -86,13 +86,27 @@ pricing.forEach(item => {
 
 console.log(pricingMap)
 
+
+const categoryMap = {};
+categories.forEach((category) => {
+  categoryMap[category.id] = category.name;
+});
+
 // Add the price to each product
 const productsWithPrice = products.map(product => ({
   ...product,
-  price: pricingMap[product.sku]
+  price: pricingMap[product.sku],
+  category: categoryMap[product.category]
+
+  
 }));
 
 console.log(productsWithPrice);
+
+//add categ to each product
+
+
+
 
 
 
