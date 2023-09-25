@@ -103,7 +103,7 @@ const productsWithPrice = products.map(product => ({
 
 console.log(productsWithPrice);
 
-//add categ to each product
+git
 
 
 
