@@ -103,7 +103,6 @@ const productsWithPrice = products.map(product => ({
 
 console.log(productsWithPrice);
 
-git
 
 
 
